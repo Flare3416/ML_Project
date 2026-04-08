@@ -2,7 +2,7 @@ from ultralytics import YOLO
 from utils.calorie import calculate_calories
 
 # Load trained model
-model = YOLO("runs/detect/train/weights/best.pt")
+model = YOLO("best.pt")
 
 def detect_food(image_path, conf=0.25, max_det=10):
     results = model(image_path, conf=conf, max_det=max_det)
