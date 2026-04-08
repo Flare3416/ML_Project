@@ -19,8 +19,6 @@ dataset/*.cache
 # YOLO training and inference outputs
 runs/
 
-# Local model checkpoints and weights
-*.pt
 
 # Local test images and temp artifacts
 test.jpg

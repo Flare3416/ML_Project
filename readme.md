@@ -50,7 +50,7 @@ streamlit run app.py
 Fresh train:
 
 ```bash
-yolo detect train data=data.yaml model=yolov8n.pt epochs=40 imgsz=640 batch=16 device=0 workers=4
+yolo detect train data=data.yaml model=yolo26n.pt epochs=40 imgsz=640 batch=16 device=0 workers=4
 ```
 
 Continue from previous weights:
