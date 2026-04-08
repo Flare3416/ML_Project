@@ -329,6 +329,25 @@ header button[aria-label*="sidebar" i] {
     border-color: #444;
 }
 
+.detect-card-empty {
+    opacity: 1 !important;
+    background: #f1ece2;
+    border: 1px solid #c9c2b5;
+}
+
+.detect-card-empty .detect-card-index {
+    color: #6b6560;
+}
+
+.detect-card-empty .detect-card-name {
+    color: #2f2a24;
+    font-weight: 600;
+}
+
+.detect-card-empty .detect-kcal {
+    color: #4a433b;
+}
+
 .detect-card-index {
     font-family: 'Space Mono', monospace;
     font-size: 0.6rem;
@@ -522,6 +541,15 @@ header button[aria-label*="sidebar" i] {
     border: 1px solid var(--border) !important;
     font-size: 0.82rem !important;
     font-family: 'Space Mono', monospace !important;
+}
+
+[data-testid="stAlert"] {
+    background: #f1edbe !important;
+    color: #2f2a24 !important;
+}
+
+[data-testid="stAlert"] * {
+    color: #2f2a24 !important;
 }
 
 h1, h2, h3 {
@@ -793,11 +821,11 @@ if uploaded_files:
                 """)
             else:
                 st.html(f"""
-                <div class="detect-card" style="opacity:0.4;">
+                <div class="detect-card detect-card-empty">
                     <span class="detect-card-index">#{idx+1:02d}</span>
-                    <span class="detect-card-name" style="color:#666;font-weight:400">No food detected</span>
+                    <span class="detect-card-name">No food detected</span>
                     <span class="detect-conf-pill conf-low">Below threshold</span>
-                    <span class="detect-kcal" style="color:#555">— kcal</span>
+                    <span class="detect-kcal">— kcal</span>
                 </div>
                 """)
 
