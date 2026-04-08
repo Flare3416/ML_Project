@@ -1,0 +1,165 @@
+path: C:/Code/Python/Project/ML_Project/dataset
+train: images/train
+val: images/val
+
+nc: 158
+
+names:   
+  - rice
+  - beef curry
+  - sushi
+  - fried rice
+  - tempura bowl
+  - toast
+  - croissant
+  - roll bread
+  - hamburger
+  - pizza
+  - sandwiches
+  - udon noodle
+  - soba noodle
+  - ramen noodle
+  - tensin noodle
+  - fried noodle
+  - spaghetti
+  - Japanese-style pancake
+  - takoyaki
+  - gratin
+  - sauteed vegetables
+  - croquette
+  - vegetable tempura
+  - miso soup
+  - potage
+  - sausage
+  - oden
+  - omelet
+  - jiaozi
+  - stew
+  - teriyaki grilled fish
+  - fried fish
+  - grilled salmon
+  - sashimi
+  - sukiyaki
+  - sweet and sour pork
+  - tempura
+  - fried chicken
+  - sirloin cutlet
+  - seasoned beef with potatoes
+  - hambarg steak
+  - steak
+  - ginger pork saute
+  - spicy chili-flavored tofu
+  - yakitori
+  - cabbage roll
+  - omelet
+  - egg sunny-side up
+  - egg roll
+  - chilled noodle
+  - stir-fried beef and peppers
+  - simmered pork
+  - boiled chicken and vegetables
+  - sashimi bowl
+  - sushi bowl
+  - shrimp with chill source
+  - roast chicken
+  - steamed meat dumpling
+  - omelet with fried rice
+  - cutlet curry
+  - spaghetti meat sauce
+  - fried shrimp
+  - potato salad
+  - green salad
+  - macaroni salad
+  - pork miso soup
+  - chinese soup
+  - beef bowl
+  - rice ball
+  - pizza toast
+  - hot dog
+  - french fries
+  - mixed rice
+  - goya chanpuru
+  - green curry
+  - okinawa soba
+  - mango pudding
+  - almond jelly
+  - jjigae
+  - dak galbi
+  - dry curry
+  - paella
+  - pancake
+  - crape
+  - tiramisu
+  - waffle
+  - rare cheese cake
+  - shortcake
+  - french toast
+  - minestrone
+  - chicken nugget
+  - french bread
+  - broiled eel bowl
+  - clear soup
+  - mozuku
+  - inarizushi
+  - pork loin cutlet
+  - chicken cutlet
+  - bagel
+  - tortilla
+  - tacos
+  - nachos
+  - meat loaf
+  - scrambled egg
+  - lasagna
+  - Caesar salad
+  - muffin
+  - popcorn
+  - cream puff
+  - doughnut
+  - apple pie
+  - parfait
+  - lamb kebabs
+  - roast duck
+  - hot pot
+  - xiao long bao
+  - custard tart
+  - beef noodle soup
+  - minced pork rice
+  - fish ball soup
+  - oyster omelette
+  - Sour prawn soup
+  - Thai papaya salad
+  - boned, sliced Hainan-style chicken with marinated rice
+  - spicy chicken salad
+  - fried mussel pancakes
+  - Deep Fried Chicken Wing
+  - Barbecued red pork in sauce with rice
+  - Rice with roast duck
+  - Rice crispy pork
+  - Wonton soup
+  - pho
+  - Fried spring rolls
+  - Steamed rice roll
+  - Shrimp patties
+  - ball shaped bun with pork
+  - Glutinous Rice Balls
+  - loco moco
+  - malasada
+  - oxtail soup
+  - adobo
+  - lumpia
+  - brownie
+  - churro
+  - jambalaya
+  - nasi goreng
+  - laksa
+  - mie goreng
+  - kaya toast
+  - bak kut teh
+  - curry puff
+  - chow mein
+  - kung pao chicken
+  - salt & pepper fried shrimp with shell
+  - baked salmon
+  - winter melon soup
+  - steamed spareribs
+  - hot & sour soup

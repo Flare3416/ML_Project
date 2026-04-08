@@ -1,0 +1,11 @@
+ultralytics
+torch
+torchvision
+torchaudio
+opencv-python
+pandas
+numpy==1.26.4
+pillow
+matplotlib
+streamlit
+kagglehub

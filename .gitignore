@@ -1,0 +1,34 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Local environment
+venv/
+.venv/
+env/
+
+# VS Code local settings
+.vscode/
+
+# Large datasets and generated training data
+UECFOOD256/
+dataset/images/
+dataset/labels/
+dataset/*.cache
+
+# YOLO training and inference outputs
+runs/
+
+# Local model checkpoints and weights
+*.pt
+
+# Local test images and temp artifacts
+test.jpg
+test2.jpg
+test3.jpg
+test4.jpg
+temp.jpg
+
+# OS junk
+.DS_Store
+Thumbs.db
