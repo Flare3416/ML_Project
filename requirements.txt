@@ -2,7 +2,7 @@ ultralytics
 torch
 torchvision
 torchaudio
-opencv-python-headless
+opencv-python-headless==4.10.0.84
 pandas
 numpy==1.26.4
 pillow
